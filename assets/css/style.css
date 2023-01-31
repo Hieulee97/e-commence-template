@@ -286,15 +286,15 @@ nav .navbar__line{
 }
 
 .section__main--collection-list .card.card--text-overlay:nth-child(1) {
-    background-image: url('/assets/images/products/card-img-001.svg');
+    background-image: url('../images/products/card-img-001.svg');
 }
 
 .section__main--collection-list .card.card--text-overlay:nth-child(2) {
-    background-image: url('/assets/images/products/card-img-002.svg');
+    background-image: url('../images/products/card-img-002.svg');
 }
 
 .section__main--collection-list .card.card--text-overlay:nth-child(3) {
-    background-image: url('/assets/images/products/card-img-003.svg');
+    background-image: url('../images/products/card-img-003.svg');
 }
 
 .card.card--text-overlay .card__text{
@@ -314,25 +314,25 @@ nav .navbar__line{
 .card.main__card--product:nth-child(1) {
     background-size: auto;
     background-color: #D3FBD9;
-    background-image: url('/assets/images/products/furniture-img-001.svg');
+    background-image: url('../images/products/furniture-img-001.svg');
 }
 
 .card.main__card--product:nth-child(2) {
     background-size: auto;
     background-color: #FFE4BD;
-    background-image: url('/assets/images/products/furniture-img-002.svg');
+    background-image: url('../images/products/furniture-img-002.svg');
 }
 
 .card.main__card--product:nth-child(3) {
     background-size: auto;
     background-color: #D9ABFD;
-    background-image: url('/assets/images/products/furniture-img-003.svg');
+    background-image: url('../images/products/furniture-img-003.svg');
 }
 
 .card.main__card--product:nth-child(4) {
     background-size: auto;
     background-color: #FDF0AB;
-    background-image: url('/assets/images/products/furniture-img-004.svg');
+    background-image: url('../images/products/furniture-img-004.svg');
 }
 
 .btn.card__btn--favor{
@@ -389,17 +389,17 @@ nav .navbar__line{
 }
 
 .section__main--about .card.card--text-overlay:nth-child(1){
-    background-image: url("/assets/images/products/about-pic-001.svg");
+    background-image: url("../images/products/about-pic-001.svg");
     
 }
 
 .section__main--about .card.card--text-overlay:nth-child(2){
-    background-image: url("/assets/images/products/about-pic-002.svg");
+    background-image: url("../images/products/about-pic-002.svg");
     
 }
 
 .section__main--about .card.card--text-overlay:nth-child(3){
-    background-image: url("/assets/images/products/about-pic-003.svg");
+    background-image: url("../images/products/about-pic-003.svg");
     
 }
 
@@ -476,43 +476,43 @@ nav .navbar__line{
 
 
 .swiper-slide:nth-child(1) .items__thumbail--furniture{
-    background-image: url("/assets/images/products/good-theme-001.png");
+    background-image: url("../images/products/good-theme-001.png");
 }
 
 .swiper-slide:nth-child(2) .items__thumbail--furniture{
-    background-image: url("/assets/images/products/good-theme-002.png");
+    background-image: url("../images/products/good-theme-002.png");
 }
 
 .swiper-slide:nth-child(3) .items__thumbail--furniture{
-    background-image: url("/assets/images/products/good-theme-003.png");
+    background-image: url("../images/products/good-theme-003.png");
 }
 
 .swiper-slide:nth-child(4) .items__thumbail--furniture{
-    background-image: url("/assets/images/products/good-theme-004.png");
+    background-image: url("../images/products/good-theme-004.png");
 }
 
 .swiper-slide:nth-child(5) .items__thumbail--furniture{
-    background-image: url("/assets/images/products/good-theme-005.png");
+    background-image: url("../images/products/good-theme-005.png");
 }
 
 .swiper-slide:nth-child(6) .items__thumbail--furniture{
-    background-image: url("/assets/images/products/good-theme-006.png");
+    background-image: url("../images/products/good-theme-006.png");
 }
 
 .swiper-slide:nth-child(7) .items__thumbail--furniture{
-    background-image: url("/assets/images/products/good-theme-007.png");
+    background-image: url("../images/products/good-theme-007.png");
 }
 
 .swiper-slide:nth-child(8) .items__thumbail--furniture{
-    background-image: url("/assets/images/products/good-theme-008.png"); 
+    background-image: url("../images/products/good-theme-008.png"); 
 }
 
 .swiper-slide:nth-child(9) .items__thumbail--furniture{
-    background-image: url("/assets/images/products/good-theme-001.png"); 
+    background-image: url("../images/products/good-theme-001.png"); 
 }
 
 .swiper-slide:nth-child(10) .items__thumbail--furniture{
-    background-image: url("/assets/images/products/good-theme-002.png");
+    background-image: url("../images/products/good-theme-002.png");
 }
 
 .section__main--handpicked-list {
@@ -612,43 +612,43 @@ nav .navbar__line{
 }
 
 .swiper-slide:nth-child(1) .card-m.slider__card--product{
-    background-image: url("/assets/images/products/product--001.svg");
+    background-image: url("../images/products/product--001.svg");
 }
 
 .swiper-slide:nth-child(2) .card-m.slider__card--product{
-    background-image: url("/assets/images/products/product--002.svg");
+    background-image: url("../images/products/product--002.svg");
 }
 
 .swiper-slide:nth-child(3) .card-m.slider__card--product{
-    background-image: url("/assets/images/products/product--003.svg");
+    background-image: url("../images/products/product--003.svg");
 }
 
 .swiper-slide:nth-child(4) .card-m.slider__card--product{
-    background-image: url("/assets/images/products/product--004.svg");
+    background-image: url("../images/products/product--004.svg");
 }
 
 .swiper-slide:nth-child(5) .card-m.slider__card--product{
-    background-image: url("/assets/images/products/product--005.svg");
+    background-image: url("../images/products/product--005.svg");
 }
 
 .swiper-slide:nth-child(6) .card-m.slider__card--product{
-    background-image: url("/assets/images/products/product--006.svg");
+    background-image: url("../images/products/product--006.svg");
 }
 
 .swiper-slide:nth-child(7) .card-m.slider__card--product{
-    background-image: url("/assets/images/products/product--001.svg");
+    background-image: url("../images/products/product--001.svg");
 }
 
 .swiper-slide:nth-child(8) .card-m.slider__card--product{
-    background-image: url("/assets/images/products/product--002.svg"); 
+    background-image: url("../images/products/product--002.svg"); 
 }
 
 .swiper-slide:nth-child(9) .card-m.slider__card--product{
-    background-image: url("/assets/images/products/product--003.svg"); 
+    background-image: url("../images/products/product--003.svg"); 
 }
 
 .swiper-slide:nth-child(10) .card-m.slider__card--product{
-    background-image: url("/assets/images/products/product--004.svg");
+    background-image: url("../images/products/product--004.svg");
 }
 
 .main__bar--selec-collection{
@@ -854,7 +854,7 @@ p.heading--contact-email:nth-child(2){
 
     .header-logo{
         height: 28px;
-        background: url("/assets/images/logos/e-commerce-log.svg") no-repeat left center;
+        background: url("../images/logos/e-commerce-log.svg") no-repeat left center;
     }
 
     .header-icons{
