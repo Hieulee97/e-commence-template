@@ -677,6 +677,7 @@ nav .navbar__line{
 
 .section__main--contact-email{
     padding-top: 40px;
+    padding-bottom: 48px;
 }
 
 .section__main__warper--contact-email{
@@ -740,6 +741,20 @@ p.heading--contact-email:nth-child(2){
     bottom: 48px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.section__footer__text--slogan{
+    padding: 12px 0 12px 0;
+}
+
+.section__footer__warper{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer__text--adress{
+    width: 141px;
+    word-break: break-all;
 }
 
 @media (min-width: 1200px) {

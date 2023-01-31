@@ -137,6 +137,30 @@ html {
 .row.row--gap-8{
     gap: 0.8rem;
 }
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.col.col--gap-24{
+    gap: 2.4rem;
+}
+
+.col.col--gap-12{
+    gap: 1.2rem;
+}
+
+.col-lg-3{
+    flex: 0 0 33%;
+    max-width: 33%;
+}
+
+.col-lg-2{
+    flex: 0 0 18%;
+    max-width: 18%;
+}
+
 .btn{
     
     height: 100%;
