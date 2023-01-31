@@ -1,0 +1,299 @@
+:root {
+    --font: 'Poppins', sans-serif;
+    --primary: #EB6D20;
+    --third: #EB8426;
+    --text: #3E3E3E;
+    --subtext: #9A9A9A;
+    --paragraph: #292929;
+    --succes: #6DB95A;
+    --error: #DD5E5E;
+    --warning: #D98614;
+    --url: #177DDC;
+    --white: #ffff;
+    --thick-black:#040404;
+    --middle-black:#0B0B0B;
+    --soft-black:#1B1B1B;
+    --light: #d6d6d6;
+    --medium: #5f5f5f;
+    --regular: #303030;
+    --broder: #e9e9e9;
+    --disabled: #ffff;
+    --backround: #fdfdfd;
+    --soft-background: #FFF9F3;
+    --gray-background: #F5F6F8;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+.inp{
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* .container{
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+} */
+
+.container {
+    width: 1320px;
+    max-width: calc(100% - 48px);
+    margin-inline: auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.d-inline-block{
+    display: inline-block;
+}
+
+.pos-absolute{
+    position: absolute;
+}
+
+.pos-relative{
+    position: relative;
+}
+
+
+.bg-green{
+    background-color: #3F65EA;
+}
+
+.bg-light-blue{
+    background-color: #33ABC6;
+}
+
+.bg-deep-green{
+    background-color: #1CCD8D;
+}
+
+.bg-pink{
+    background-color: #F74A69;
+}
+
+.bg-purple{
+    background-color: #A635EC;
+}
+
+.bg-orange{
+    background-color: #F9A85D;
+}
+
+.bg-white{
+    background-color: var(--white);
+}
+
+.bg-gray{
+    background-color: var(--gray-background);
+}
+
+.bg-third{
+    background-color: var(--third);
+}
+
+
+
+
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.row-warp{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row.row--gap-48{
+    gap: 4.8rem;
+}
+
+.row.row--gap-24{
+    gap: 2.4rem;
+}
+
+.row.row--gap-16{
+    gap: 1.6rem;
+}
+
+.row.row--gap-8{
+    gap: 0.8rem;
+}
+.btn{
+    
+    height: 100%;
+    border: none;
+    border-radius: 999px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-none-radius{
+    display: block;
+    height: 100%;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.heading-1{
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+.heading-2{
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.heading-3{
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+}
+
+.heading-4{
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+
+.heading-5{
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+}
+
+.heading-6{
+    font-weight: 600;
+    font-size: 2.8rem;
+    line-height: 3.2rem;
+}
+
+.text-1{
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+
+.text-2{
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+
+.text-3{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2rem; 
+}
+
+.text-4{
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.text-5{
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem; 
+}
+
+.text-6{
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.4rem; 
+}
+
+.text-white{
+    color: var(--white);
+}
+
+.text-content{
+    color: var(--text);
+}
+
+.text-subtext{
+    color: var(--subtext);
+}
+
+.text-light{
+    color: var(--light);
+}
+
+.text-paragraph{
+    color: var(--paragraph);
+}
+
+
+.text-third{
+    color: var(--third);
+}
+
+.text-thick-black{
+    color: var(--thick-black);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-dec-none{
+    text-decoration: none;
+}
+
+.card{
+    flex: 1 1 0;
+    height: 180px;
+    border-radius: 5px;
+    
+}
+.card-m{
+    flex: 1 1 0;
+    height: 290px;
+    border-radius: 5px;
+}
+.card-lg{
+    width: 100%;
+    height: 306px;
+    border-radius: 5px;
+}
+@media (min-width: 1200px) {
+    
+}
+
+
+@media (max-width: 1200px) and (min-width: 577px) {
+    .container{
+        width: calc(100% - 48px);
+    }
+
+}
+
+@media (max-width: 576px) {
+    .container{
+        width: 288px;
+    }
+}

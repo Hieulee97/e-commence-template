@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets\css\reset.css">
+    <link rel="stylesheet" href="assets\css\base.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets\css\style.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <title>Document</title>
+</head>
+<body onscroll="onPageLoading()">
+    <div class="wrapper">
+        <div id="header" class="section section-header" >
+            <div class="container">
+                <div class="row row--gap-24 header-top">
+                    <div class="header-logo">
+                       
+                    </div>
+                    <div class="header-search">
+                        <div class="row row--gap-16 header-search-warp">
+                            <div class="row row--gap-8 search-calottery text-1 text-content">
+                                <span>All categories</span>
+                                <img src="assets/images/icons/expand_down_light.svg" alt="" width="16px" height="16px">
+                                <ul>
+                                    <li><a href="">categorie</a></li>
+                                    <li><a href="">categorie</a></li>
+                                    <li><a href="">categorie</a></li>
+                                    <li><a href="">categorie</a></li>
+                                    <li><a href="">categorie</a></li>
+                                    <li><a href="">categorie</a></li>
+                                </ul>
+                            </div>
+                            <div class="search__form">
+                                <form class="search__form--warp row row--gap-16">
+                                        <input class="inp inp--search" type="text" placeholder="Search anything">
+                                        <button type="submit">
+                                            <img src="assets/images/icons/Search_alt_duotone_line.svg" alt="" width="24px" height="24px">
+                                        </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row header-icons">
+                        <a href="" class="btn btn--help text-2 text-white">Help</a>
+                        <a href="" class="row row--gap-8 header-icon icon-account">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.7274 20.4471C19.2716 19.1713 18.2672 18.0439 16.8701 17.2399C15.4729 16.4358 13.7611 16 12 16C10.2389 16 8.52706 16.4358 7.12991 17.2399C5.73276 18.0439 4.72839 19.1713 4.27259 20.4471" stroke="#5F5F5F" stroke-width="2" stroke-linecap="round"/>
+                                <circle cx="12" cy="8" r="4" stroke="#5F5F5F" stroke-width="2" stroke-linecap="round"/>
+                            </svg>   
+                            <span class="icon-account">
+                                Account
+                            </span>
+                        </a>
+                        <a href="" class="row row--gap-8 header-icon icon-cart">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 12L8 8C8 5.79086 9.79086 4 12 4V4C14.2091 4 16 5.79086 16 8L16 12" stroke="#5F5F5F" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M3.69435 12.6678C3.83942 10.9269 3.91196 10.0565 4.48605 9.52824C5.06013 9 5.9336 9 7.68053 9H16.3195C18.0664 9 18.9399 9 19.514 9.52824C20.088 10.0565 20.1606 10.9269 20.3057 12.6678L20.8195 18.8339C20.904 19.8474 20.9462 20.3542 20.6491 20.6771C20.352 21 19.8435 21 18.8264 21H5.1736C4.15655 21 3.64802 21 3.35092 20.6771C3.05382 20.3542 3.09605 19.8474 3.18051 18.8339L3.69435 12.6678Z" stroke="#5F5F5F" stroke-width="2"/>
+                            </svg>
+                                
+                            <span class="icon-cart">
+                                Shoping
+                            </span>
+                            <span class="icon-count">
+                                16
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class= "header-nav">
+                    <nav>
+                        <ul class="row row--gap-48 text-6 nav__list--product">
+                            <li class="navbar--item active"><a href="#">Jewelry & Accessories</a></li>
+                            <li class="navbar--item"><a href="#">Clothing & Shoes</a></li>
+                            <li class="navbar--item"><a href="#">Home & Living</a></li>
+                            <li class="navbar--item"><a href="#">Wedding & Party</a></li>
+                            <li class="navbar--item"><a href="#">Toys & Entertainment</a></li>
+                            <li class="navbar--item"><a href="#">Art & Collectibles</a></li>
+                            <li class="navbar--item"><a href="#">Craft Supplies & Tools</a></li>
+                        </ul>
+                        <div class="navbar__line"></div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div id="header-tablet" class="section section-header--tablet">
+            <div class="container">
+                <div class="row row--gap-24 header-top">
+                    <div class="header-logo">
+                       
+                    </div>
+                    <div class="row header-icons">
+                        <a href="" class="btn btn--help text-2 text-white">Help</a>
+                        <a href="" class="row row--gap-8 header-icon icon-account">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.7274 20.4471C19.2716 19.1713 18.2672 18.0439 16.8701 17.2399C15.4729 16.4358 13.7611 16 12 16C10.2389 16 8.52706 16.4358 7.12991 17.2399C5.73276 18.0439 4.72839 19.1713 4.27259 20.4471" stroke="#5F5F5F" stroke-width="2" stroke-linecap="round"/>
+                                <circle cx="12" cy="8" r="4" stroke="#5F5F5F" stroke-width="2" stroke-linecap="round"/>
+                            </svg>    
+                            <span class="icon-account">
+                                Account
+                            </span>
+                        </a>
+                        <a href="" class="row row--gap-8 header-icon icon-cart">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 12L8 8C8 5.79086 9.79086 4 12 4V4C14.2091 4 16 5.79086 16 8L16 12" stroke="#5F5F5F" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M3.69435 12.6678C3.83942 10.9269 3.91196 10.0565 4.48605 9.52824C5.06013 9 5.9336 9 7.68053 9H16.3195C18.0664 9 18.9399 9 19.514 9.52824C20.088 10.0565 20.1606 10.9269 20.3057 12.6678L20.8195 18.8339C20.904 19.8474 20.9462 20.3542 20.6491 20.6771C20.352 21 19.8435 21 18.8264 21H5.1736C4.15655 21 3.64802 21 3.35092 20.6771C3.05382 20.3542 3.09605 19.8474 3.18051 18.8339L3.69435 12.6678Z" stroke="#5F5F5F" stroke-width="2"/>
+                            </svg>
+                            <span class="icon-cart">
+                                Shoping
+                            </span>
+                            <span class="icon-count">
+                                16
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row row--gap-16 header__bot--search">
+                    <button class="btn bot__btn--menu">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 7H19" stroke="#5F5F5F" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M5 12H15" stroke="#5F5F5F" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M5 17H11" stroke="#5F5F5F" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </button>
+                    <div class="header-search">
+                        <div class="row row--gap-16 header-search-warp">
+                            <div class="row row--gap-8 search-calottery text-1 text-content">
+                                <span>All categories</span>
+                                <img src="assets/images/icons/expand_down_light.svg" alt="" width="16px" height="16px">
+                                <ul>
+                                    <li><a href="">categorie</a></li>
+                                    <li><a href="">categorie</a></li>
+                                    <li><a href="">categorie</a></li>
+                                    <li><a href="">categorie</a></li>
+                                    <li><a href="">categorie</a></li>
+                                    <li><a href="">categorie</a></li>
+                                </ul>
+                            </div>
+                            <div class="search__form">
+                                <form class="search__form--warp row row--gap-16">
+                                        <input class="inp inp--search" type="text" placeholder="Search anything">
+                                        <button type="submit">
+                                            <img src="assets/images/icons/Search_alt_duotone_line.svg" alt="" width="24px" height="24px">
+                                        </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            
+        </div>
+        <div id="header-mobile" class="section section-header--mobile">
+            <div class="container">
+                <div class="row row--gap-24 header-top">
+                    <div class="header-logo">
+                       
+                    </div>
+                    <div class="row header-icons">
+                        <a href="" class="row row--gap-8 header-icon icon-account">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.7274 20.4471C19.2716 19.1713 18.2672 18.0439 16.8701 17.2399C15.4729 16.4358 13.7611 16 12 16C10.2389 16 8.52706 16.4358 7.12991 17.2399C5.73276 18.0439 4.72839 19.1713 4.27259 20.4471" stroke="#5F5F5F" stroke-width="2" stroke-linecap="round"/>
+                                <circle cx="12" cy="8" r="4" stroke="#5F5F5F" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                        <a href="" class="row row--gap-8 header-icon icon-cart">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 12L8 8C8 5.79086 9.79086 4 12 4V4C14.2091 4 16 5.79086 16 8L16 12" stroke="#5F5F5F" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M3.69435 12.6678C3.83942 10.9269 3.91196 10.0565 4.48605 9.52824C5.06013 9 5.9336 9 7.68053 9H16.3195C18.0664 9 18.9399 9 19.514 9.52824C20.088 10.0565 20.1606 10.9269 20.3057 12.6678L20.8195 18.8339C20.904 19.8474 20.9462 20.3542 20.6491 20.6771C20.352 21 19.8435 21 18.8264 21H5.1736C4.15655 21 3.64802 21 3.35092 20.6771C3.05382 20.3542 3.09605 19.8474 3.18051 18.8339L3.69435 12.6678Z" stroke="#5F5F5F" stroke-width="2"/>
+                            </svg>
+                            
+                            <span class="icon-count">
+                                16
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row row--gap-16 header__bot--search">
+                    <button class="btn bot__btn--menu">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 7H19" stroke="#5F5F5F" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M5 12H15" stroke="#5F5F5F" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M5 17H11" stroke="#5F5F5F" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </button>
+                    <div class="header-search">
+                        <div class="row row--gap-16 header-search-warp">
+                            <div class="search__form">
+                                <form class="search__form--warp row row--gap-16">
+                                        <input class="inp inp--search" type="text" placeholder="Search anything">
+                                        <button type="submit">
+                                            <img src="assets/images/icons/Search_alt_duotone_line.svg" alt="" width="24px" height="24px">
+                                        </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            
+        </div>
+        <main class="section section__main--content">
+            <div class="container">
+                <div class="row row--gap-24 section__main--collection-list">
+                    <a class="card card--text-overlay text-dec-none" href="#">
+                        <span class="heading-2 text-white card__text">Clothing & Shoes</span>
+                    </a>
+                    <a class="card card--text-overlay text-dec-none" href="#">
+                        <span class="heading-2 text-white card__text">Home & Living</span>
+                    </a>
+                    <a class="card card--text-overlay text-dec-none" href="#">
+                        <span class="heading-2 text-white card__text">Art & Collectibles</span>
+                    </a>
+                </div>
+                <div class="section__main--products">
+                    <div class="row row--gap-24 section__main__warper--products">
+                        <div class="card main__card--product pos-relative">
+                            <button class="btn card__btn--favor bg-white pos-absolute">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                </svg>
+                            </button>
+                            <p class="card__text--choose-color text-2 text-content pos-absolute">
+                                Colors
+                            </p>
+                            <div class="row row--gap-8 card__warp--color-btns pos-absolute">
+                                <button class="btn bg-green card__warp__btn--color"></button>
+                                <button class="btn bg-deep-green card__warp__btn--color"></button>
+                                <button class="btn bg-pink card__warp__btn--color"></button>
+                                <button class="btn bg-purple card__warp__btn--color"></button>
+                                <button class="btn bg-orange card__warp__btn--color"></button>
+                            </div>
+                            <p class="text-6 text-content card___text pos-absolute">
+                                NOCKEBY 3-Seat Sofa Cover Slipcover Hand Made
+                            </p>
+                            <p class="text-5 text-content card___text--price pos-absolute">
+                                43,23 $
+                            </p>
+                        </div>
+                        <div class="card main__card--product pos-relative">
+                            <button class="btn card__btn--favor bg-white pos-absolute">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                </svg>
+                            </button>
+                            <p class="card__text--choose-color text-2 text-content pos-absolute">
+                                Colors
+                            </p>
+                            <div class="row row--gap-8 card__warp--color-btns pos-absolute">
+                                <button class="btn bg-green card__warp__btn--color"></button>
+                                <button class="btn bg-deep-green card__warp__btn--color"></button>
+                                <button class="btn bg-pink card__warp__btn--color"></button>
+                                <button class="btn bg-purple card__warp__btn--color"></button>
+                                <button class="btn bg-orange card__warp__btn--color"></button>
+                            </div>
+                            <p class="text-6 text-content card___text pos-absolute">
+                                NOCKEBY 3-Seat Sofa Cover Slipcover Hand Made
+                            </p>
+                            <p class="text-5 text-content card___text--price pos-absolute">
+                                43,23 $
+                            </p>
+                        </div>
+                        <div class="card main__card--product pos-relative">
+                            <button class="btn card__btn--favor bg-white pos-absolute">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                </svg>
+                            </button>
+                            <p class="card__text--choose-color text-2 text-content pos-absolute">
+                                Colors
+                            </p>
+                            <div class="row row--gap-8 card__warp--color-btns pos-absolute">
+                                <button class="btn bg-green card__warp__btn--color"></button>
+                                <button class="btn bg-deep-green card__warp__btn--color"></button>
+                                <button class="btn bg-pink card__warp__btn--color"></button>
+                                <button class="btn bg-purple card__warp__btn--color"></button>
+                                <button class="btn bg-orange card__warp__btn--color"></button>
+                            </div>
+                            <p class="text-6 text-content card___text pos-absolute">
+                                NOCKEBY 3-Seat Sofa Cover Slipcover Hand Made
+                            </p>
+                            <p class="text-5 text-content card___text--price pos-absolute">
+                                43,23 $
+                            </p>
+                        </div>
+                        <div class="card main__card--product pos-relative">
+                            <button class="btn card__btn--favor bg-white pos-absolute">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                </svg>
+                            </button>
+                            <p class="card__text--choose-color text-2 text-content pos-absolute">
+                                Colors
+                            </p>
+                            <div class="row row--gap-8 card__warp--color-btns pos-absolute">
+                                <button class="btn bg-green card__warp__btn--color"></button>
+                                <button class="btn bg-deep-green card__warp__btn--color"></button>
+                                <button class="btn bg-pink card__warp__btn--color"></button>
+                                <button class="btn bg-purple card__warp__btn--color"></button>
+                                <button class="btn bg-orange card__warp__btn--color"></button>
+                            </div>
+                            <p class="text-6 text-content card___text pos-absolute">
+                                NOCKEBY 3-Seat Sofa Cover Slipcover Hand Made
+                            </p>
+                            <p class="text-5 text-content card___text--price pos-absolute">
+                                43,23 $
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row--gap-24 section__main--about">
+                    <div class="card card--text-overlay" href="#">
+                        <p class="text-4 text-content card__text--about-tile">A community <br> doing good</p>
+                        <p class="text-1 text-content card__text--about-desc">Commerce is a global online marketplace, where people.</p>
+                    </div>
+                    <div class="card card--text-overlay " href="#">
+                        <p class="text-4 text-content card__text--about-tile">Support independent <br> creators</p>
+                        <p class="text-1 text-content card__text--about-desc">Just millions of people selling the things they love.</p>
+                    </div>
+                    <div class="card card--text-overlay " href="#">
+                        <p class="text-4 text-content card__text--about-tile">Peace<br> of mind</p>
+                        <p class="text-1 text-content card__text--about-desc">Privacy is the highest priority of our dedicated team.</p>
+                    </div>
+                </div>
+                <div class="section__main--variety-furniture">
+                    <p class="heading-3 text-content section__main__text--furniture-about">Find things you'll love. Support independent sellers.</p>
+                    <p class="text-5 text-subtext section__main__text--furniture-desc">Only on polka.</p>
+                    <div class="row section__warper--furniture">
+                        <div class="swiper section__slider--furniture">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="section__main__items--furniture">
+                                        <div class="items__thumbail--furniture"></div>
+                                        <p class="text-5 text-content item__text__furniture">Craft Kits</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="section__main__items--furniture">
+                                        <div class="items__thumbail--furniture"></div>
+                                        <p class="text-5 text-content item__text__furniture">Throw Pillows</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="section__main__items--furniture">
+                                        <div class="items__thumbail--furniture"></div>
+                                        <p class="text-5 text-content item__text__furniture">Natural Glass</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="section__main__items--furniture">
+                                        <div class="items__thumbail--furniture"></div>
+                                        <p class="text-5 text-content item__text__furniture">Self-care</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="section__main__items--furniture">
+                                        <div class="items__thumbail--furniture"></div>
+                                        <p class="text-5 text-content item__text__furniture">Gift Ideas</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="section__main__items--furniture">
+                                        <div class="items__thumbail--furniture"></div>
+                                        <p class="text-5 text-content item__text__furniture">Wall Decor</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="section__main__items--furniture">
+                                        <div class="items__thumbail--furniture"></div>
+                                        <p class="text-5 text-content item__text__furniture">Wedding</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="section__main__items--furniture">
+                                        <div class="items__thumbail--furniture"></div>
+                                        <p class="text-5 text-content item__text__furniture">Life Style</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="section__main__items--furniture">
+                                        <div class="items__thumbail--furniture"></div>
+                                        <p class="text-5 text-content item__text__furniture"></p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="section__main__items--furniture">
+                                        <div class="items__thumbail--furniture"></div>
+                                        <p class="text-5 text-content item__text__furniture"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn section__warper swiper-button-next"></div>
+                        <div class="btn section__warper swiper-button-prev"></div>
+                    </div>
+                    
+                </div>
+                <div class="section__main--handpicked-list">
+                    <div class="row section__main__warper---handpicked-text">
+                        <h3 class="heading-3 text-content warper__title--handpicked">
+                            Discover unique hand-picked items
+                        </h3>
+                        <a href="#" class="row row--gap-8 text-6 text-third text-dec-none warper__link--handpicked">
+                            <span d-inline-block>
+                                View All
+                            </span>
+
+                            <svg d-inline-block width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14 6L20 12M20 12L14 18M20 12H5" stroke="#EB8426" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="section__main__warper---handpicked-list">
+                        <div class="swiper section__slider--handpicked-card">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card-m slider__card--product">
+                                        <button class="btn card__btn--favor bg-white">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                            </svg>
+                                        </button>
+                                        <p class="text-1 text-content card___text">
+                                            Distressed Tote Leather Bag Leather Bag
+                                        </p>
+                                        <p class="text-5 text-content card___text--price">
+                                            43,23 $
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-m slider__card--product">
+                                        <button class="btn card__btn--favor bg-white">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                            </svg>
+                                        </button>
+                                        <p class="text-1 text-content card___text">
+                                            Womens Cognac Leather Elastic Straps
+                                        </p>
+                                        <p class="text-5 text-content card___text--price">
+                                            43,23 $
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                   <div class="card-m slider__card--product">
+                                        <button class="btn card__btn--favor bg-white">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                            </svg>
+                                        </button>
+                                        <p class="text-1 text-content card___text">
+                                            Distressed Tote Leather Bag Leather Bag
+                                        </p>
+                                        <p class="text-5 text-content card___text--price">
+                                            43,23 $
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-m slider__card--product">
+                                        <button class="btn card__btn--favor bg-white">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                            </svg>
+                                        </button>
+                                        <p class="text-1 text-content card___text">
+                                            High Top Canvas Shoes
+                                        </p>
+                                        <p class="text-5 text-content card___text--price">
+                                            43,23 $
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-m slider__card--product">
+                                        <button class="btn card__btn--favor bg-white">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                            </svg>
+                                        </button>
+                                        <p class="text-1 text-content card___text">
+                                            Rose Gold Moissanite Vintage Wedding Ring Set
+                                        </p>
+                                        <p class="text-5 text-content card___text--price">
+                                            43,23 $
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-m slider__card--product">
+                                        <button class="btn card__btn--favor bg-white">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                            </svg>
+                                        </button>
+                                        <p class="text-1 text-content card___text">
+                                            Blue Topaz Bangle 24K Gold Plated Handmade
+                                        </p>
+                                        <p class="text-5 text-content card___text--price">
+                                            43,23 $
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-m slider__card--product">
+                                        <button class="btn card__btn--favor bg-white">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                            </svg>
+                                        </button>
+                                        <p class="text-1 text-content card___text">
+                                            Distressed Tote Leather Bag Leather Bag
+                                        </p>
+                                        <p class="text-5 text-content card___text--price">
+                                            43,23 $
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-m slider__card--product">
+                                        <button class="btn card__btn--favor bg-white">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                            </svg>
+                                        </button>
+                                        <p class="text-1 text-content card___text">
+                                            Distressed Tote Leather Bag Leather Bag
+                                        </p>
+                                        <p class="text-5 text-content card___text--price">
+                                            43,23 $
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                   <div class="card-m slider__card--product">
+                                        <button class="btn card__btn--favor bg-white">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                            </svg>
+                                        </button>
+                                        <p class="text-1 text-content card___text">
+                                            Distressed Tote Leather Bag Leather Bag
+                                        </p>
+                                        <p class="text-5 text-content card___text--price">
+                                            43,23 $
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-m slider__card--product">
+                                        <button class="btn card__btn--favor bg-white">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                            </svg>
+                                        </button>
+                                        <p class="text-1 text-content card___text">
+                                            Distressed Tote Leather Bag Leather Bag
+                                        </p>
+                                        <p class="text-5 text-content card___text--price">
+                                            43,23 $
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn main__warper__btn swiper-button-next">
+                            
+                        </div>
+                        <div class="btn main__warper__btn swiper-button-prev">
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section__main--selec-collection">
+                    <div class="row row--gap-24 row-warp main__bar--selec-collection">
+                        <button class="btn-none-radius bg-white bar__btn--selec-collection heading-2 text-center text-content">
+                            Modern <br>Farmhouse
+                        </button>
+                        <button class="btn-none-radius bg-white bar__btn--selec-collection heading-2 text-center text-content">
+                            Eclectic <br>Decor
+                        </button>
+                        <button class="btn-none-radius bg-white bar__btn--selec-collection heading-2 text-center text-content">
+                            Polka Boho <br>Style
+                        </button>
+                        <button class="btn-none-radius bg-white bar__btn--selec-collection heading-2 text-center text-content">
+                            Minimalist <br>Farmhouse
+                        </button>
+                        <button class="btn-none-radius bg-white bar__btn--selec-collection heading-2 text-center text-content">
+                            Anniversary <br>Gifts
+                        </button>
+                        <button class="btn-none-radius bg-white bar__btn--selec-collection heading-2 text-center text-content">
+                            Wedding <br> Gifts
+                        </button>
+                    </div>
+                    
+                    <div class="row row--gap-24 section__main__warper--products">
+                        <div class="card main__card--product pos-relative">
+                            <button class="btn card__btn--favor bg-white pos-absolute">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                </svg>
+                            </button>
+                            <p class="card__text--choose-color text-2 text-content pos-absolute">
+                                Colors
+                            </p>
+                            <div class="row row--gap-8 card__warp--color-btns pos-absolute">
+                                <button class="btn bg-green card__warp__btn--color"></button>
+                                <button class="btn bg-deep-green card__warp__btn--color"></button>
+                                <button class="btn bg-pink card__warp__btn--color"></button>
+                                <button class="btn bg-purple card__warp__btn--color"></button>
+                                <button class="btn bg-orange card__warp__btn--color"></button>
+                            </div>
+                            <p class="text-6 text-content card___text pos-absolute">
+                                NOCKEBY 3-Seat Sofa Cover Slipcover Hand Made
+                            </p>
+                            <p class="text-5 text-content card___text--price pos-absolute">
+                                43,23 $
+                            </p>
+                        </div>
+                        <div class="card main__card--product pos-relative">
+                            <button class="btn card__btn--favor bg-white pos-absolute">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                </svg>
+                            </button>
+                            <p class="card__text--choose-color text-2 text-content pos-absolute">
+                                Colors
+                            </p>
+                            <div class="row row--gap-8 card__warp--color-btns pos-absolute">
+                                <button class="btn bg-green card__warp__btn--color"></button>
+                                <button class="btn bg-deep-green card__warp__btn--color"></button>
+                                <button class="btn bg-pink card__warp__btn--color"></button>
+                                <button class="btn bg-purple card__warp__btn--color"></button>
+                                <button class="btn bg-orange card__warp__btn--color"></button>
+                            </div>
+                            <p class="text-6 text-content card___text pos-absolute">
+                                NOCKEBY 3-Seat Sofa Cover Slipcover Hand Made
+                            </p>
+                            <p class="text-5 text-content card___text--price pos-absolute">
+                                43,23 $
+                            </p>
+                        </div>
+                        <div class="card main__card--product pos-relative">
+                            <button class="btn card__btn--favor bg-white pos-absolute">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                </svg>
+                            </button>
+                            <p class="card__text--choose-color text-2 text-content pos-absolute">
+                                Colors
+                            </p>
+                            <div class="row row--gap-8 card__warp--color-btns pos-absolute">
+                                <button class="btn bg-green card__warp__btn--color"></button>
+                                <button class="btn bg-deep-green card__warp__btn--color"></button>
+                                <button class="btn bg-pink card__warp__btn--color"></button>
+                                <button class="btn bg-purple card__warp__btn--color"></button>
+                                <button class="btn bg-orange card__warp__btn--color"></button>
+                            </div>
+                            <p class="text-6 text-content card___text pos-absolute">
+                                NOCKEBY 3-Seat Sofa Cover Slipcover Hand Made
+                            </p>
+                            <p class="text-5 text-content card___text--price pos-absolute">
+                                43,23 $
+                            </p>
+                        </div>
+                        <div class="card main__card--product pos-relative">
+                            <button class="btn card__btn--favor bg-white pos-absolute">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                </svg>
+                            </button>
+                            <p class="card__text--choose-color text-2 text-content pos-absolute">
+                                Colors
+                            </p>
+                            <div class="row row--gap-8 card__warp--color-btns pos-absolute">
+                                <button class="btn bg-green card__warp__btn--color"></button>
+                                <button class="btn bg-deep-green card__warp__btn--color"></button>
+                                <button class="btn bg-pink card__warp__btn--color"></button>
+                                <button class="btn bg-purple card__warp__btn--color"></button>
+                                <button class="btn bg-orange card__warp__btn--color"></button>
+                            </div>
+                            <p class="text-6 text-content card___text pos-absolute">
+                                NOCKEBY 3-Seat Sofa Cover Slipcover Hand Made
+                            </p>
+                            <p class="text-5 text-content card___text--price pos-absolute">
+                                43,23 $
+                            </p>
+                        </div>
+                    </div>
+                
+                    <div class="section__main__warper---handpicked-list">
+                        <div class="swiper section__slider--handpicked-card">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card-m slider__card--product">
+                                        <button class="btn card__btn--favor bg-white">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                            </svg>
+                                        </button>
+                                        <p class="text-1 text-content card___text">
+                                            Distressed Tote Leather Bag Leather Bag
+                                        </p>
+                                        <p class="text-5 text-content card___text--price">
+                                            43,23 $
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-m slider__card--product">
+                                        <button class="btn card__btn--favor bg-white">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                            </svg>
+                                        </button>
+                                        <p class="text-1 text-content card___text">
+                                            Womens Cognac Leather Elastic Straps
+                                        </p>
+                                        <p class="text-5 text-content card___text--price">
+                                            43,23 $
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                   <div class="card-m slider__card--product">
+                                        <button class="btn card__btn--favor bg-white">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                            </svg>
+                                        </button>
+                                        <p class="text-1 text-content card___text">
+                                            Distressed Tote Leather Bag Leather Bag
+                                        </p>
+                                        <p class="text-5 text-content card___text--price">
+                                            43,23 $
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-m slider__card--product">
+                                        <button class="btn card__btn--favor bg-white">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                            </svg>
+                                        </button>
+                                        <p class="text-1 text-content card___text">
+                                            High Top Canvas Shoes
+                                        </p>
+                                        <p class="text-5 text-content card___text--price">
+                                            43,23 $
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-m slider__card--product">
+                                        <button class="btn card__btn--favor bg-white">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                            </svg>
+                                        </button>
+                                        <p class="text-1 text-content card___text">
+                                            Rose Gold Moissanite Vintage Wedding Ring Set
+                                        </p>
+                                        <p class="text-5 text-content card___text--price">
+                                            43,23 $
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-m slider__card--product">
+                                        <button class="btn card__btn--favor bg-white">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                            </svg>
+                                        </button>
+                                        <p class="text-1 text-content card___text">
+                                            Blue Topaz Bangle 24K Gold Plated Handmade
+                                        </p>
+                                        <p class="text-5 text-content card___text--price">
+                                            43,23 $
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-m slider__card--product">
+                                        <button class="btn card__btn--favor bg-white">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                            </svg>
+                                        </button>
+                                        <p class="text-1 text-content card___text">
+                                            Distressed Tote Leather Bag Leather Bag
+                                        </p>
+                                        <p class="text-5 text-content card___text--price">
+                                            43,23 $
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-m slider__card--product">
+                                        <button class="btn card__btn--favor bg-white">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                            </svg>
+                                        </button>
+                                        <p class="text-1 text-content card___text">
+                                            Distressed Tote Leather Bag Leather Bag
+                                        </p>
+                                        <p class="text-5 text-content card___text--price">
+                                            43,23 $
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                   <div class="card-m slider__card--product">
+                                        <button class="btn card__btn--favor bg-white">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                            </svg>
+                                        </button>
+                                        <p class="text-1 text-content card___text">
+                                            Distressed Tote Leather Bag Leather Bag
+                                        </p>
+                                        <p class="text-5 text-content card___text--price">
+                                            43,23 $
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-m slider__card--product">
+                                        <button class="btn card__btn--favor bg-white">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.96712 9.27214L7.60219 13.6263C7.65404 13.675 7.67996 13.6993 7.70464 13.7174C7.8805 13.8462 8.1195 13.8462 8.29536 13.7174C8.32004 13.6993 8.34597 13.675 8.39781 13.6263L13.0329 9.27214C14.337 8.04706 14.4954 6.03106 13.3985 4.61738L13.1923 4.35156C11.8802 2.66038 9.24642 2.94401 8.32445 4.87576C8.19421 5.14864 7.80579 5.14864 7.67556 4.87576C6.75358 2.94401 4.11982 2.66038 2.8077 4.35156L2.60146 4.61738C1.50463 6.03106 1.663 8.04706 2.96712 9.27214Z" stroke="#5F5F5F" stroke-width="2"/>
+                                            </svg>
+                                        </button>
+                                        <p class="text-1 text-content card___text">
+                                            Distressed Tote Leather Bag Leather Bag
+                                        </p>
+                                        <p class="text-5 text-content card___text--price">
+                                            43,23 $
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+
+                </div>
+
+                <div class="section__main--contact-email">
+                    <div class="card-lg section__main__warper--contact-email pos-relative">
+                        <p class="heading-3 text-white heading--contact-email pos-absolute">
+                            Yes!
+                        </p>
+                        <p class="heading-3 text-white heading--contact-email pos-absolute">
+                            Send me exclusive offers, unique gift ideas, and personalized
+                            tips for shopping and selling on Commerce.
+                        </p>
+                        <div class="btn row bg-white warper--contact-email pos-absolute">
+                            <input type="text" name="" id="" class="inp inp--contact-email">
+                            <a href="#" class="btn link--contact-email bg-third row row--gap-8">
+                                <span class="text-2 text-white d-inline-block">Subscribe</span>
+                                <svg  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 6L20 12M20 12L14 18M20 12H5" stroke="#ffffff" stroke-linecap="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <a href="#" class="text-light text-2 link--contact-order pos-absolute">
+                            First order only. You're ready?
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="section section__footer">
+            <div class="section__footer__text--slogan bg-gray text-6 text-center text-thick-black">
+                p
+            </div>
+        </footer>
+    </div>
+
+</body>
+<script src="assets/scripts/main.js"></script>
+</html>
