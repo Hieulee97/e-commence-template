@@ -757,6 +757,13 @@ p.heading--contact-email:nth-child(2){
     word-break: break-all;
 }
 
+
+
+.footer__bot__wraper--policy a:hover{
+    color: var(--third);
+}
+
+
 @media (min-width: 1200px) {
     
 }

@@ -304,6 +304,11 @@ html {
     height: 306px;
     border-radius: 5px;
 }
+
+.mg-corner-left{
+    margin-left: auto;
+}
+
 @media (min-width: 1200px) {
     
 }
