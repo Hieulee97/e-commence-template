@@ -664,7 +664,7 @@ nav .navbar__line{
 }
 
 .bar__btn--selec-collection:hover{
-    width: 200px;
+    
     height: 63px;
     padding-bottom: calc(63px - 38px);
     border-bottom: 1px solid #EB8426;
@@ -852,6 +852,8 @@ p.heading--contact-email:nth-child(2){
         width: 268px;
         
     }
+
+    
     
 
 }
