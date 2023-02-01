@@ -326,3 +326,32 @@ html {
         width: 288px;
     }
 }
+
+/* .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col {
+    width: calc((100%/12) * var(--w-xs));
+    max-width: calc((100%/12) * var(--w-xs));
+}
+@media(min-width: 768px) {
+    [style*="--w-md"] {
+        width: calc((100%/12) * var(--w-md));
+        max-width: calc((100%/12) * var(--w-md));
+    }
+}
+@media(min-width: 992px) {
+    [style*="--w-lg"] {
+        width: calc((100%/12) * var(--w-lg));
+        max-width: calc((100%/12) * var(--w-lg));
+    }
+}
+@media(min-width: 1200px) {
+    [style*="--w
+@media(min-width: 1200px) {
+    [style*="--w-xl"] {
+        width: calc((100%/12) * var(--w-xl));
+        max-width: calc((100%/12) * var(--w-xl));
+    }
+} */
